@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width", initial-scale=1">
+        <title>CSS PROJECT</title>
+        <style >
+
+            #container{
+                width: 100%;
+            }
+
+            body{
+                margin: 0;
+                padding: 0;
+                line-height: 1.5em;
+            }
+
+            #header{
+                background-color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                height: 100px;
+            }
+
+            #contentwrapper{
+                float:left;
+                width: 100%;
+            }
+
+            #contentcolumn{
+                margin: 0 230px 0 230px;
+                background-color: lightgoldenrodyellow;
+            }
+
+            #leftcolumn{
+                float: left;
+                width: 230px;
+                margin-left: -100%;
+                background-color: cornflowerblue;
+            }
+
+            #rightcolumn{
+                float: left;
+                width: 230px;
+                margin-left: -230px;
+                background-color: cornflowerblue;
+            }
+
+            .innertext{
+                margin: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: darkblue;
+            }
+
+            #footer{
+                clear: left;
+                width: 100%;
+                background-color: black;
+                color: cornflowerblue;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                padding: 4px;
+            }
+
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: black;
+            }
+
+            li{
+                float: left;
+                border-right: 1px solid greenyellow;
+            }
+
+            li:last-child{
+                border-right: none;
+            }
+
+            li a{
+                display: block;
+                color: cornflowerblue;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active){
+                background-color: gray;
+            }
+
+            .active{
+                background-color: yellowgreen;
+            }
+
+            /*-----------------------RESPONSIVE  LAYOUT CSS---------------------------*/
+
+            @media (max-width: 840px)    /*right column drop*/
+            {
+                #leftcolumn{
+                    margin-left: -100%;
+                }
+
+                #rightcolumn{
+                    float: none;
+                    width: 100%;
+                    margin-left: 0;
+                    clear: both;
+                }
+
+                #contentcolumn{
+                    margin-right: 0;
+                }
+            }
+
+            @media (max-width: 600px)   /*left column drops*/
+            {
+                #leftcolumn{
+                    float: none;
+                    width: 100%;
+                    margin-left: 0;
+                    clear: both;
+                }
+
+                #contentcolumn{
+                   margin-left: 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="container">
+
+            <div id="header">
+                <ul style="display: inline;">
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#news">About</a></li>
+                    <li><a href="#contact">News</a></li>
+                    <li><a href="#about">Contact</a></li>
+                </ul>
+            </div>
+
+            <div id="contentwrapper">
+                <div id="contentcolumn">
+                    <div class="innertext">
+                        <b>WELCOME!</b></br>
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        This is a page which is created by Ayusha. You might take a tour.
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div id="leftcolumn">
+                <div class="innertext">
+                    <b>What's Up?</b></br>
+                    It is so boring staying at home with no friends. No worries we got you covered.
+                    It is so boring staying at home with no friends. No worries we got you covered.
+                    It is so boring staying at home with no friends. No worries we got you covered.
+                    It is so boring staying at home with no friends. No worries we got you covered.
+                    It is so boring staying at home with no friends. No worries we got you covered.
+                    It is so boring staying at home with no friends. No worries we got you covered.
+                    It is so boring staying at home with no friends. No worries we got you covered.
+                    It is so boring staying at home with no friends. No worries we got you covered.
+                    It is so boring staying at home with no friends. No worries we got you covered.
+                    It is so boring staying at home with no friends. No worries we got you covered.
+                    
+                </div>
+            </div>
+
+            <div id="rightcolumn">
+                <div class="innertext">
+                    <b>Rate Us!</b>
+                    </br>Making a webpage isn't that easy. You know it right?
+                    Making a webpage isn't that easy. You know it right?
+                    Making a webpage isn't that easy. You know it right?
+                    Making a webpage isn't that easy. You know it right?
+                    Making a webpage isn't that easy. You know it right?
+                    Making a webpage isn't that easy. You know it right?
+                    Making a webpage isn't that easy. You know it right?
+                    Making a webpage isn't that easy. You know it right?
+                </div>
+            </div>
+
+            <div id="footer">
+                <b>THANK YOU FOR JOINING US!</b>
+            </div>
+        </div>
+    </body>
+</html>
